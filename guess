@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# File: guess
+anwser = 6
+guess = 5
+while [[ guess =! anwser ]]
+do
+	if [[ guess -gt anwser ]]
+	then
+		echo "Your guess was to high."
+	else
+		echo "guess was to low." 
+	fi
+	
+done
+
